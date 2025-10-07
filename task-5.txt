@@ -1,4 +1,31 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:240541613
+AD-SOYAD:Ayham Nawaf Hamoud
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Görev 5: İdeal Kahve Demleme Algoritması 
+
+Problemin Analizi:
+Amaç: Kişisel zevke göre ideal kahve demlemek için adım adım algoritma oluşturmak.  
+Girdiler: Kahve türü, su sıcaklığı, demleme süresi, ekipman  
+Çıktı: Lezzetli ve dengeli kahve
+
+---
+
+📌 Pseudocode (Adım Adım):
+
+Başla  
+Kahve türünü seç (örneğin filtre, espresso, Türk kahvesi)  
+Eğer kahve taze öğütülmüşse:  
+ Su sıcaklığını kontrol et  
+ Eğer sıcaklık 90-96°C arasında ise:  
+  Demlemeye başla  
+  Zamanlayıcıyı başlat (demleme süresi: 3-5 dakika)  
+  Demleme tamamlanınca:  
+   Servis et  
+ Aksi halde:  
+  Su sıcaklığını ayarla  
+Aksi halde:  
+ Yeni kahve öğüt  
+Bitir
+
+---
