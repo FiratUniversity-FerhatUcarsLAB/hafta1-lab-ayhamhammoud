@@ -1,4 +1,26 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:240541613
+AD-SOYAD:Ayham Nawaf Hammoud
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Görev 2: Tic-Tac-Toe Kazanma Stratejisi
+Başla  
+Eğer merkez boş ise:  
+ Merkeze oyna  
+Aksi halde:  
+ Köşelerden boş olan varsa:  
+  Boş köşeye oyna  
+Aksi halde:  
+ Kenar boşluklardan birine oyna  
+
+Her hamleden sonra:  
+ Eğer kazanma ihtimali varsa:  
+  Kazandıran hamleyi yap  
+ Eğer rakip kazanmak üzereyse:  
+  Engelleyen hamleyi yap  
+
+Oyun bitene kadar döngü:  
+ Hamle yap → kontrol et → sırayı değiştir  
+
+Bitir
+
+---
