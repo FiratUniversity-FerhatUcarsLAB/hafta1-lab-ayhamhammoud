@@ -1,4 +1,36 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:240541613
+AD-SOYAD:Ayham Nawaf Hammoud
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Görev 4: İki Büyük Sayıyı Kağıt-Kalemle Çarpma (Divide & Conquer) 
+Problemin Analizi:
+Amaç: İki büyük sayıyı kağıt-kalem yöntemiyle çarpmak için böl ve fethet yaklaşımıyla algoritma geliştirmek.  
+Girdiler: Sayı A ve Sayı B (örneğin 4 basamaklı)  
+Çıktı: A × B sonucu
+
+---
+
+📌 Pseudocode (Adım Adım):
+
+Fonksiyon Carp(A, B):  
+ Eğer A veya B tek basamaklı ise:  
+  Doğrudan çarp ve sonucu döndür  
+ A’yı ikiye böl: A1, A2  
+ B’yi ikiye böl: B1, B2  
+
+ Recursif olarak:  
+  P1 = Carp(A1, B1)  
+  P2 = Carp(A1, B2)  
+  P3 = Carp(A2, B1)  
+  P4 = Carp(A2, B2)  
+
+ Sonuç = P1 × 10^n + (P2 + P3) × 10^(n/2) + P4  
+ Sonucu döndür
+
+Başla  
+Kullanıcıdan A ve B al  
+Sonucu = Carp(A, B)  
+Sonucu göster  
+Bitir
+
+---
